@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sunjing.flightdoudou.DetailActivity">
+
+    <TextView
+        android:id="@+id/flight_start"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:text="111" />
+
+    <TextView
+        android:id="@+id/flight_end"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/flight_start"
+        tools:layout_editor_absoluteX="8dp"
+        tools:text="222" />
+
+</android.support.constraint.ConstraintLayout>
