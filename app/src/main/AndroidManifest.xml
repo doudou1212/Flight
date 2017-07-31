@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".FlightResultActivity"
+            android:exported="true"></activity>
+        <activity
             android:name=".DetailActivity"
             android:exported="true"></activity>
     </application>

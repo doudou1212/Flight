@@ -6,8 +6,23 @@
     android:layout_height="match_parent"
     tools:context="com.example.sunjing.flightdoudou.MainActivity">
 
-    <android.support.v7.widget.RecyclerView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/flight_list"/>
+        android:layout_height="300dp"
+        android:id="@+id/flight_main"
+        android:background="@drawable/fly_bg"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FLA"
+            android:textSize="30dp"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+
+
 </android.support.constraint.ConstraintLayout>
